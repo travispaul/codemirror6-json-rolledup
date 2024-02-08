@@ -1,6 +1,6 @@
 {
   "name": "@tpaul/codemirror6-json-rolledup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pre-transpiled and rolled-up version of CodeMirror 6 to support JSON editing. ",
   "main": "index.js",
   "scripts": {
@@ -17,12 +17,11 @@
   },
   "homepage": "https://github.com/travispaul/codemirror6-json-rolledup#readme",
   "devDependencies": {
+    "@codemirror/lang-json": "^6.0.1",
+    "@codemirror/theme-one-dark": "^6.1.2",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "codemirror": "^6.0.1",
-    "rollup": "^4.9.6"
-  },
-  "dependencies": {
-    "@codemirror/lang-json": "^6.0.1",
-    "@codemirror/theme-one-dark": "^6.1.2"
+    "rollup": "^4.9.6",
+    "@codemirror/state": "^6.4.0"
   }
 }
