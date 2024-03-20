@@ -25665,4 +25665,4 @@ the highlight style).
 */
 const oneDark = [oneDarkTheme, /*@__PURE__*/syntaxHighlighting(oneDarkHighlightStyle)];
 
-export { EditorState, EditorView, basicSetup, json, oneDark };
+export { EditorState, EditorView, ViewUpdate, basicSetup, json, oneDark };
